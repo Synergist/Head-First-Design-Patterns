@@ -20,4 +20,7 @@ public class Singleton {
 		}
 		return uniqueInstance;
 	}
+	public String getDescription() {
+		return "I'm a thread safe Singleton that uses \"double-checked locking\"!";
+	}
 }
